@@ -1,0 +1,88 @@
+[
+  // Quick navigation
+  {
+    "key": "cmd+p",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+shift+p",
+    "command": "workbench.action.showCommands"
+  },
+  
+  // Terminal
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "workbench.action.terminal.new"
+  },
+  
+  // Split editor
+  {
+    "key": "cmd+\\",
+    "command": "workbench.action.splitEditor"
+  },
+  
+  // File explorer
+  {
+    "key": "cmd+shift+e",
+    "command": "workbench.view.explorer"
+  },
+  
+  // Search
+  {
+    "key": "cmd+shift+f",
+    "command": "workbench.view.search"
+  },
+  
+  // Git
+  {
+    "key": "ctrl+shift+g",
+    "command": "workbench.view.scm"
+  },
+  
+  // Move lines
+  {
+    "key": "alt+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  
+  // Duplicate line
+  {
+    "key": "cmd+shift+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  
+  // Delete line
+  {
+    "key": "cmd+shift+k",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  
+  // Multi-cursor
+  {
+    "key": "cmd+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+alt+down",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+alt+up",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  }
+]
